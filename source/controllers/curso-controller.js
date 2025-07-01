@@ -4,6 +4,9 @@ function listarCurso(req,res) {
 function cadastrarCurso(req,res) {
     res.send("Função responsável por cadastrar novo curso");
 }
+function atualizarCurso(req,res) {
+    res.send("Função responsável por ataulizar novo curso");
+}
 function deletarCurso(req,res) {
     res.send("Função responsável por deletar um curso");
 }
@@ -11,5 +14,6 @@ function deletarCurso(req,res) {
 module.exports = {
     listarCurso,
     cadastrarCurso,
-    deletarCurso
+    deletarCurso,
+    atualizarCurso
 }

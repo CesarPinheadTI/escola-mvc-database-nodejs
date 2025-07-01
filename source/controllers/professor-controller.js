@@ -4,6 +4,9 @@ function listarProfessor(req,res) {
 function cadastrarProfessor(req,res) {
     res.send("Função responsável por cadastrar novo professor");
 }
+function atualizarProfessor(req,res) {
+    res.send("Função responsável por atualizar novo professor");
+}
 function deletarProfessor(req,res) {
     res.send("Função responsável por deletar um professor");
 }
@@ -11,5 +14,6 @@ function deletarProfessor(req,res) {
 module.exports = {
     listarProfessor,
     cadastrarProfessor,
-    deletarProfessor
+    deletarProfessor,
+    atualizarProfessor
 }
