@@ -6,7 +6,7 @@
     "nodemon": "^3.1.10"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon source/server.js"
   },
   "name": "05-escola-mvc-database-nodejs",
   "version": "1.0.0",
